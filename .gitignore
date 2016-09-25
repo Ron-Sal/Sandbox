@@ -1,2 +1,6 @@
 # ignore dir
 other/
+
+# ignore files
+*.psd
+*.PSD

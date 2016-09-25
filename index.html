@@ -1,12 +1,13 @@
 <html>
 	<head>
-		<title>Sandbox – v0.1-b4</title>
-		<meta name="description" content="Framework - that combines the best practices for different frameworks.">
-		<meta name="author" content="Romualds Salcevics">
-		<link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="assets/favicon/favicon.ico" type="image/x-icon">
-		<link rel="icon" sizes="16x16" href="assets/favicon/favicon_32.png">
+		<title>Sandbox – v0.1-b4.2</title>
+		<link href="assets/favicon/favicon_64.ico" rel="shortcut icon" type="image/x-icon">
+		<link href="assets/favicon/favicon_16.ico" rel="icon" sizes="16x16">
+		<link href="assets/favicon/favicon_32.ico" rel="icon" sizes="32x32">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="description" content="Collection of CSS Solutions">
+		<meta name="author" content="Ron">
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<link rel="stylesheet" href="assets/style/global.css">
 		<link rel="stylesheet" href="assets/style/template.css">
@@ -28,7 +29,7 @@
 			<h1>Advanced Column Layouts</h1>
 			<h2>Solution I</h2>
 
-			<div class="col-12 no-float sbox-green-top-line"></div>
+			<div class="col-12 no-float sbox-top-line green"></div>
 			<div class="row col-12 sbox-main-holder" style="height: 2em; line-height: 2em">
 				<div class="col-5" style="background: gray"><p>Fixed H</p></div>
 				<div class="col-2" style="background: darkgray"><p>Fixed H</p></div>
@@ -41,38 +42,38 @@
 			</div>
 
 			<h2>Solution II</h2>
-			<div class="col-12 no-float sbox-green-top-line"></div>
+			<div class="col-12 no-float sbox-top-line green"></div>
 
 			<div class="row col-12 relative sbox-main-holder" style="height: 10em; background: lightgray">
 				<div class="col-0 absolute-center" style="height: 2em; line-height: 2em; width: 10em; background: gray"><p>Fixed 	W/H</p></div>
 			</div>
 
 			<h2 class="inline-top">Solution II</h2><p class="inline-top" style="color: gray">W: Auto | H: Fixed/Auto</p>
-			<div class="col-12 no-float sbox-green-top-line"></div>
+			<div class="col-12 no-float sbox-top-line green"></div>
 
 			<div class="row col-12 col-vert-holder sbox-main-holder" style="height: 10em; line-height: 10em; background: lightgray">
-				<div class="col-2 no-float col-vert-mid">
+				<div class="col-2 no-float col-vert mid">
 					<div class="col-12 sbox-vert-item" style="height: auto; line-height: auto;"><p>Fixed H</p></div>
 				</div>
-				<div class="col-2 no-float col-vert-mid">
+				<div class="col-2 no-float col-vert mid">
 					<div class="col-12 sbox-vert-item" style="height: 3em; line-height: 3em"><p>Fixed H</p></div>
 				</div>
-				<div class="col-2 no-float col-vert-mid">
+				<div class="col-2 no-float col-vert mid">
 					<div class="col-12 sbox-vert-item" style="height: auto; line-height: auto"><p>Auto H</p><p>Auto H</p><p>Auto H</p></div>
 				</div>
-				<div class="col-2 no-float col-vert-bot">
+				<div class="col-2 no-float col-vert bot">
 					<div class="col-12 sbox-vert-item"><p>Fixed H</p></div>
 				</div>
-				<div class="col-2 no-float col-vert-top">
+				<div class="col-2 no-float col-vert top">
 					<div class="col-12 sbox-vert-item"><p>Fixed H</p></div>
 				</div>
-				<div class="col-2 no-float col-vert-bot">
+				<div class="col-2 no-float col-vert bot">
 					<div class="col-12 sbox-vert-item" style="height: auto; line-height: auto;"><p>Auto H</p><p>Auto H</p><p>Auto H</p></div>
 				</div>
 			</div>
 
 			<h2>Solution I + Solution II  + Solution III</h2>
-			<div class="col-12 no-float sbox-gold-top-line"></div>
+			<div class="col-12 no-float sbox-top-line gold"></div>
 
 			<div class="row col-12 relative sbox-main-holder" style="height: 16em; background: lightgray">
 				<div class="col-11 absolute-center" style="height: 8em">
@@ -86,22 +87,22 @@
 						<div class="col-0 right" style="width: 15em; background: darkgray"><p>Text</p></div>
 						<div class="fill" style="background: lightgray">
 							<div class="row col-12 col-vert-holder sbox-main-holder" style="height: 6em; line-height: 6em; background: lightgray">
-								<div class="col-2 no-float col-vert-mid">
+								<div class="col-2 no-float col-vert mid">
 									<div class="col-12 sbox-vert-item"><p>Rest</p></div>
 								</div>
-								<div class="col-2 no-float col-vert-mid">
+								<div class="col-2 no-float col-vert mid">
 									<div class="col-12 sbox-vert-item" style="height: 3em; line-height: 3em"><p>Rest</p></div>
 								</div>
-								<div class="col-2 no-float col-vert-mid">
+								<div class="col-2 no-float col-vert mid">
 									<div class="col-12 sbox-vert-item" style="height: 5em; line-height: 5em"><p>Rest</p></div>
 								</div>
-								<div class="col-2 no-float col-vert-bot">
+								<div class="col-2 no-float col-vert bot">
 									<div class="col-12 sbox-vert-item"><p>Rest</p></div>
 								</div>
-								<div class="col-2 no-float col-vert-top">
+								<div class="col-2 no-float col-vert top">
 									<div class="col-12 sbox-vert-item"><p>Restt</p></div>
 								</div>
-								<div class="col-2 no-float col-vert-mid">
+								<div class="col-2 no-float col-vert mid">
 									<div class="col-12 sbox-vert-item"><p>Rest</p></div>
 								</div>
 							</div>
@@ -111,7 +112,10 @@
 			</div>
 		</section>
 		<footer><h2>Wish list:  Add fill-out imgs- all positions | add tooltip for hover | addd cloumns-count use for belnico.dk | Total responsive elements</h2>
-		<h2>Content: ' ' generates a small gap in chrome</h2></footer>
+		<h2>Content: ' ' generates a small gap in chrome</h2>
+		<h1>Known Issues</h1>
+		<h2>&lt;head&rt; tag</h2><i>.favicon will never render on locahost either on Edge or IE</i>
+	</footer>
 		<!-- empty script tag - fix for input field lag -->
 		<script></script>
 	</body>

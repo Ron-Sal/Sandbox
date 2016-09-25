@@ -1,6 +1,6 @@
 /*****
  **** Global Params
- **** 
+ ****
  **** Copyright © Romualds Salcevics
  **** Supported in Chrome 53, Firefox, IE 11
  ****/
@@ -15,8 +15,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, button, input, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	border: 0;
@@ -36,7 +36,7 @@ html {
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
-	
+
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -67,15 +67,15 @@ html, body {width: 100%; height: 100%}
 
 /* ..:::: COLUMNS :::::... */
 /* Read more about Advanced Selectors::::
- ~  (Sibling Selectors)  with in the same elemtn  h2 ~ p 
+ ~  (Sibling Selectors)  with in the same elemtn  h2 ~ p
 :first-of-type, :last-of-type, & :only-of-type
 */
 .row:after {/*content:' ';*/ clear: both; display: block} /* content: '"" generates gap in chrome */
 /*[class*="col-"]:not(.right) {float: left}
 [class*="col-"] {float: right}*/
-[class*="col-"] .no-float {float: none !important}
+[class*="col-"].no-float {float: none !important}
 [class*="col-"] {float: left}
-[class*="col-"] .right {float: right}
+[class*="col-"].right {float: right}
 .col-0 {}
 .col-1 {width: 8.33333333333%}
 .col-2 {width: 16.6666666667%}
@@ -89,14 +89,14 @@ html, body {width: 100%; height: 100%}
 .col-10 {width: 83.3333333333%}
 .col-11 {width: 91.6666666666%}
 .col-12 {width: 100%}
-[class*="col-"] .fill {overflow: hidden} /* must always be the last element */
+.fill {overflow: hidden} /* must always be the last element */
 /* ???? */ /* .inherit-y {height: inherit; line-height: inherit}*/
 
 .col-vert-holder {display: table; table-layout: fixed}
-.col-vert-top, .col-vert-mid, .col-vert-bot {display: table-cell}
-.col-vert-top {vertical-align: top}
-.col-vert-mid {vertical-align: middle}
-.col-vert-bot {vertical-align: bottom}
+.col-vert {display: table-cell}
+.col-vert.top {vertical-align: top}
+.col-vert.mid {vertical-align: middle}
+.col-vert.bot {vertical-align: bottom}
 
 /* ..:::: PARAMS :::::... */
 .inline-top {display: inline-block; vertical-align: top}
