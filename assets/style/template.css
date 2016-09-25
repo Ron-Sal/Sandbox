@@ -1,0 +1,29 @@
+/*****
+ **** Sandbox Style
+ **** 
+ **** Copyright © Romualds Salcevics
+ **** Supported in Chrome 53, Firefox, IE 11
+ ****/
+ /**** REPLACE YOUR NAME WITH THE "SBOX" *****/
+p {color: white; text-align: center; font-family: Arial}
+h2 {color: gray; display: block; clear: both; content: ''; font-family: Arial; clear: both; font-size: 1em; line-height: 1em; padding-top: 1em;}
+h1 {color: gray; display: block; clear: both; content: ''; font-family: Arial; clear: both; font-size: 2em; line-height: 1em; padding-top: .5em;}
+.sbox-green-top-line {
+	background: #47b683; 
+	margin-top: .5em; 
+	height: .5em
+}
+.sbox-gold-top-line {
+	background: #fbc338; 
+	margin-top: .5em; 
+	height: .5em
+}
+.sbox-main-holder {
+	/*margin-top: .5em;*/
+}
+.sbox-vert-item {
+	background: gray;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+}
